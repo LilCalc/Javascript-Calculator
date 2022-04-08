@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html,body,.wrapper {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+/*start of styling for body*/
+body {
+    font-family: sans-serif;
+    background-color:cornsilk;
+}
+/*end of body style*/
+/*start of styling for wrapper*/
+.wrapper {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*end of wrapper style*/
+/*beginning of style for header*/
+header {
+    text-align: center;
+    padding:20px;
+    padding-top:0px;
+    color: grey;
+}
+/*end of header style*/
+/*Beginning of styling code for hero*/
+.hero {
+    background-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0,0,0,0.15) 0px 2px 8px 0px;
+    color:dimgray;
+    font-size:18px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 40px;
+}
+.hero_header::after {
+    content: "";
+    display:block;
+    width:100%;
+    background:#e7e9eb;
+    height: 1px;
+}
+.hero_body {
+min-height:100px;
+}
+.hero_footer {
+    text-align:center;
+}
+.hero_footer::before {
+    content:"";
+    display:block;
+    width:100%;
+    background:#e7e9eb;
+    height:1px;
+}
+.hero_footer::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+/*end of hero style*/
