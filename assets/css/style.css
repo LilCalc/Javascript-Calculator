@@ -67,3 +67,27 @@ min-height:100px;
     clear:both;
 }
 /*end of hero style*/
+/*Start of Button code*/
+.btn {
+    border: none;
+    background-color: red;
+    border-radius:25px;
+    box-shadow: rgba(0,0,0,0.15) 0px 1px 6px 0px rgba(0,0,0,0.15) 0px 1px 1px 0px;
+    color: whitesmoke;
+    display:inline-block;
+    font-size:25px;
+    line-height:25px;
+    margin: 20px 20px 20px 24px;
+    padding: 14px 34px;
+    text-align:center;
+    cursor: pointer;
+}
+button[disabled] {
+    cursor:default;
+    background: lightskyblue;
+}
+/*end of button code*/
+.float-right {
+    float:right;
+}
+
