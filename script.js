@@ -62,7 +62,7 @@ if(includeUppercase) {
     allCharacters = allCharacters.concat(capitalCharacters);
 }
 //Choose randomly from variables in order to create password length
-let fPassword = ""
+let fPassword = " "
 for (let i = 0; i < numberOfCharacters; i++) {
     let rng = [Math.floor(Math.random() * allCharacters.length)];
     fPassword = fPassword + allCharacters[rng];
