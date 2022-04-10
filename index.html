@@ -5,31 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="../../password-generator/Javascript-Calculator/assets/css/style.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <header>
-            <h1>Password Generator</h1>
-        </header>
-        <div class="hero">
-            <div class="hero_header">
-                <h2>Generate a Password</h2>
-            </div>
-            <div class="hero_body">
-                <textarea
-                readonly
-                id="password"
-                placeholder="Secure Password"
-                aria-label="generated password"
-                >
-            </textarea>
-            </div>
-            <div class="hero_footer">
-                <button id="generate" class="btn">Generate Password</button>
-            </div>
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
         </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
     </div>
-    <script src="../../password-generator/Javascript-Calculator/assets/js/script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
